@@ -15,7 +15,8 @@ namespace EstimoteCounter
 		const int REQUEST_ENABLE_BLUETOOTH = 123321;
 
 		FindAllBeacons _findAllBeacons;
-		int count = 1;
+		LeDevicesListAdapter _adapter;
+		int count = 0;
 
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
@@ -27,9 +28,14 @@ namespace EstimoteCounter
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
+
+			_findAllBeacons = new FindAllBeacons(this);
+			_findAllBeacons.BeaconsFound += NewBeaconsFound;
+			_adapter = new LeDevicesListAdapter(this);
 			
 			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
+				LookForBeacons();
+				button.Text = string.Format ("{0} Estimote iBeacons detected! Tap to retry.", count);
 			};
 
 		}
@@ -45,6 +51,14 @@ namespace EstimoteCounter
 			{
 				_findAllBeacons.FindBeacons();
 			}
+		}
+
+		void NewBeaconsFound(object sender, BeaconsFoundEventArgs e)
+		{
+			_adapter.Update(e.Beacons);
+			_findAllBeacons.Stop();
+
+			count = _adapter.Count;
 		}
 	}
 }

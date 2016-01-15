@@ -53,6 +53,7 @@
     <Compile Include="FindAllBeacons.cs" />
     <Compile Include="BeaconFinder.cs" />
     <Compile Include="BeaconsFoundEventArgs.cs" />
+    <Compile Include="LeDevicesListAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

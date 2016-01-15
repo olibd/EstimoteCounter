@@ -10,6 +10,10 @@ Estimotes.Droid.BeaconFinder, EstimoteCounter;md53a8e0e66b847b96c3154ee2c20a7e29
 Estimotes.Droid.BeaconFinder, EstimoteCounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a8e0e66b847b96c3154ee2c20a7e29a.BeaconFinder
 Estimotes.Droid.BeaconFinder;md53a8e0e66b847b96c3154ee2c20a7e29a.BeaconFinder
 estimotes.droid.BeaconFinder;md53a8e0e66b847b96c3154ee2c20a7e29a.BeaconFinder
+Estimotes.Droid.LeDevicesListAdapter, EstimoteCounter;md53a8e0e66b847b96c3154ee2c20a7e29a.LeDevicesListAdapter
+Estimotes.Droid.LeDevicesListAdapter, EstimoteCounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a8e0e66b847b96c3154ee2c20a7e29a.LeDevicesListAdapter
+Estimotes.Droid.LeDevicesListAdapter;md53a8e0e66b847b96c3154ee2c20a7e29a.LeDevicesListAdapter
+estimotes.droid.LeDevicesListAdapter;md53a8e0e66b847b96c3154ee2c20a7e29a.LeDevicesListAdapter
 EstimoteSdk.BeaconManager/IEddystoneListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor
 EstimoteSdk.BeaconManager+IEddystoneListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor
 EstimoteSdk.BeaconManager.IEddystoneListenerImplementor;mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor
