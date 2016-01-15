@@ -1,0 +1,1 @@
+<FrameLayout android:layout_height="wrap_content" android:layout_width="54dp" xmlns:android="http://schemas.android.com/apk/res/android"><ProgressBar android:layout_width="32dp" android:layout_height="32dp" android:layout_gravity="center" /></FrameLayout>

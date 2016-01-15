@@ -1,0 +1,9 @@
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/Estimotes.Droid.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/System.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/System.Xml.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/Mono.Android.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/Xamarin.Estimote.Android.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/System.Core.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/mscorlib.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/System.Runtime.Serialization.dll
+/Users/mmowbray/Projects/EstimoteCounter/Components/estimotesdkandroid-0.9.1.0/samples/EstimoteSample/EstimoteSample/obj/Debug/assemblies/System.ServiceModel.Internals.dll
