@@ -1,0 +1,2 @@
+/Users/mmowbray/Projects/EstimoteCounter/EstimoteCounter/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/mmowbray/Projects/EstimoteCounter/EstimoteCounter/bin/Debug/Xamarin.Estimote.Android.dll

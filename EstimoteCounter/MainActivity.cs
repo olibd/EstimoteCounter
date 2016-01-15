@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using EstimoteSdk;
 
 namespace EstimoteCounter
 {
@@ -19,6 +20,8 @@ namespace EstimoteCounter
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
+
+			BeaconManager bm = new BeaconManager();
 			
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
